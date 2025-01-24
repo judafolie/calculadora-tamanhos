@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tamanhos - Folie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Tamanhos</h1>
+        <form id="sizeForm">
+            <label for="busto">Busto (cm):</label>
+            <input type="number" id="busto" required>
+
+            <label for="cintura">Cintura (cm):</label>
+            <input type="number" id="cintura" required>
+
+            <label for="quadril">Quadril (cm):</label>
+            <input type="number" id="quadril" required>
+
+            <button type="submit">Calcular Tamanho</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
