@@ -24,7 +24,7 @@ document.getElementById('sizeForm').addEventListener('submit', function (event) 
     document.getElementById('resultado').textContent = `O tamanho ideal é: ${tamanho}`;
 
     // Conexão com o Google Sheets
-    fetch('URL_DO_SEU_WEB_APP', { // Substitua pela URL gerada no Google Apps Script
+    fetch('https://script.google.com/macros/s/AKfycbyOJrkbQu0kz3TpFCTdXDQ0EX3xRYZ4yi2l8pcWGz8YwjhyWlW9TGXEeyGpA2pSF43G/exec', { // Substitua pela URL gerada no Google Apps Script
         method: 'POST',
         body: JSON.stringify({
             busto: busto,
